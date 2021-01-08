@@ -1,0 +1,133 @@
+/* General Styles */
+
+@charset "UTF-8";
+body{
+    margin-top: 100px;
+}
+@media(min-width:768px){
+    body{
+        margin-top: 50px;
+    }
+}
+
+#top_side{
+    padding-left:0 px;
+}
+#contain{
+    width: auto;
+    background-color: #F9F9F9;
+}
+@media(min-width:768px){
+    #side_top{
+        padding-left:0;
+    }
+    #contain{
+        padding:0px;
+    }
+}
+
+/* Top bar */
+.nav-top{
+    padding : 0 15px;
+}
+.nav-top>li{
+    display: inline-block;
+    float: left;
+}
+
+.nav-top>li>a{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    color: #fff;
+}
+.nav-top>li>a:hover,
+.nav-top>li>a:focus{
+    color: black;
+}
+
+/* sidebar nav */
+
+#nav_collapse .side-navbar>li>a{
+    text-transform: uppercase;
+}
+
+@media(min-width:992px){
+    #nav_collapse .side-navbar{
+        position:fixed;
+        top:51px;
+        left:0;
+        width:17%;
+        border-radius: 0;
+        overflow-x : auto;
+        background-color: #222;
+        bottom: 0;
+        overflow-y: hidden;
+    }
+    #nav_collapse .side-navbar>li>ul>li>a{
+        width:80%;
+    }    
+}
+@media(max-width:991px){
+    #nav_collapse .side-navbar{
+        position:fixed;
+        top:51px;
+        left:0;
+        width:25%;
+        border-radius: 0;
+        overflow-x : auto;
+        background-color: #222;
+        bottom: 0;
+        overflow-y: hidden;
+    }
+    #nav_collapse .side-navbar>li>ul>li>a{
+        width:80%;
+    }    
+}
+
+#nav_collapse .side-navbar>li>ul{
+    padding:0;
+}
+#nav_collapse .side-navbar>li{
+    list-style: none;
+}
+#nav_collapse .side-navbar>li>a:hover{
+    
+    background-color: green;
+    color:white;
+}
+#nav_collapse .side-navbar>li>a{   
+    color:#999;
+    width: 220px;
+}
+#nav_collapse .side-navbar>li>ul>li>a{
+    display: block;
+    text-decoration: none;
+    color:#999;
+    padding:10px 15px 10px 38px;
+}
+#nav_collapse .side-navbar>li>ul>li>a:hover{
+    color:#fff;
+}
+
+/*breadcrumb style */
+
+.row .breadcrumb{
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+}
+
+/*panel */
+.row .panel a{
+    color:rgb(14, 54, 14);
+}
+
+
+
+
+
+
+
+
